@@ -9,7 +9,7 @@ def join_nested_strings(src)
     
     while inner_count < src[count].length do
       
-      if src[count][inner_count].is_a String
+      if src[count][inner_count].is_a? String
         string_array << src[count][inner_count]
       end
       inner_count += 1
