@@ -16,5 +16,5 @@ def join_nested_strings(src)
     end
     count += 1
   end
-  string_array.join('')
+  string_array.join(' ')
 end
